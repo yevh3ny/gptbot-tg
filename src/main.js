@@ -46,6 +46,6 @@ bot.on(message('text'), async (ctx) => {
 })
 
 bot.launch()
-console.log('Бот запущен');
+console.log('Бот запущен')
 process.once('SIGINT', () => bot.stop('SIGINT'))
 process.once('SIGTERM', () => bot.stop('SIGTERM'))
